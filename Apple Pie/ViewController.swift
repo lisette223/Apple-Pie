@@ -44,7 +44,7 @@ var listOfWords = ["swift", "java", "python", "javascript", "ruby","lisp"]
      }
     func updateUI() {
     scoreLabel.text = "Wins: \(totalWins), Losses: \(totalLosses)"
-    treeImageView.image = UIImage(named: "Tree  \(currentGame.incorrectMovesRemaining)")
+    treeImageView.image = UIImage(named: "Tree \(currentGame.incorrectMovesRemaining)")
 
     }
 
